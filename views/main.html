@@ -3,7 +3,7 @@
   <head>
     <title>Basic Quest</title>
     <link rel='shortcut icon' type='image/x-icon' href='favico3.ico'>
-    <link rel='stylesheet' href='../css/bootstrap.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel='stylesheet' href='../css/main.css'>
     <link rel='stylesheet' href='../css/fontawesome-free-5.7.2-web/css/all.min.css'>
   </head>
@@ -21,7 +21,6 @@
             <th class='mgk'   data-toggle='tooltip' data-placement='left' title='Deals magic damage'>Magic <i class='fas fa-scroll'></i></th>
             <th class='spd'   data-toggle='tooltip' data-placement='left' title='Get to strike first'>Speed <i class='fas fa-feather'></i></th>
             <th class='str'   data-toggle='tooltip' data-placement='left' title='Deals physical damage'>Strength <i class='fas fa-fist-raised'></i></th>
-            <th class='equip' data-toggle='tooltip' data-placement='left' title='Increases your stats'>Equipment <i class=''></i></th>
             <th>Select</th>
           </tr>
         </thead>
@@ -34,17 +33,13 @@
             <td class='mgk'>5</td>
             <td class='spd'>2</td>
             <td class='str'>9</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' data-html='true' title="Angelic Sword: +2 Health, +3 Magic, -2 Speed, +3 Strength
-Halo: +1 Defense, +5 Health
-Abilities: Devils'sMan,
-Suffering,
-Hellfire">
-              <ul>
-                <li>Angelic Sword</li>,
-                <li>Halo</li>
-              </ul>
+            <td>
+              <button name='archangel' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Angelic Sword: (+2 Health, +3 Magic, -2 Speed, +3 Strength)
+              Halo: (+1 Defense, +5 Health)
+              Abilities: Devils'sMan,
+              Suffering,
+              Hellfire">Select</button>
             </td>
-            <td><button name='archangel'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-frog'></i> Argonian</th>
@@ -54,17 +49,13 @@ Hellfire">
             <td class='mgk'>2.5</td>
             <td class='spd'>5</td>
             <td class='str'>5</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' data-html='true' title='Shiv: +0.5 Speed, +1 Strength
-Reptilian Scales: +5 Defense, +5 Health, +2 Speed, +3 Strength
-Abilities: Charisma,
-WaterBreather,
-SwordsMaster'>
-              <ul>
-                <li>Shiv</li>,
-                <li>Reptilian Scales</li>
-              </ul>
+            <td>
+              <button name='argonian' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Shiv: (+0.5 Speed, +1 Strength)
+              Reptilian Scales: (+5 Defense, +5 Health, +2 Speed, +3 Strength)
+              Abilities: Charisma,
+              WaterBreather,
+              SwordsMaster">Select</button>
             </td>
-            <td><button name='argonian'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-dove'></i> Assassin</th>
@@ -74,17 +65,13 @@ SwordsMaster'>
             <td class=mgk>4</td>
             <td class='spd'>7</td>
             <td class='str'>10</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title="Hidden Blade: +1 Defense, +5 Health, +1 Speed, +3 Strength
-Assassin's Cloak: +2.5 Defense, +4 Health, +1.5 Speed, +1 Strength
-Abilities: EagleEye,
-SpecialsMaster,
-SlipperyFeet">
-              <ul>
-                <li>Hidden Blade</li>,
-                <li>Assassin's Cloak</li>
-              </ul>
+            <td>
+              <button name='assassin' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hidden Blade: (+1 Defense, +5 Health, +1 Speed, +3 Strength)
+              Assassin's Cloak: (+2.5 Defense, +4 Health, +1.5 Speed, +1 Strength)
+              Abilities: EagleEye,
+              SpecialsMaster,
+              SlipperyFeet">Select</button>
             </td>
-            <td><button name='assassin'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fab fa-studiovinari'></i> Azetic</th>
@@ -94,17 +81,13 @@ SlipperyFeet">
             <td class='mgk'>2</td>
             <td class='spd'>5</td>
             <td class='str'>8</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' data-html='true' title="MIDA MultiTool: +1 Defense, +1 Health, +2 Speed, +4 Strength
-Azetic's Cloak: +1 Defense, +3 Health, +1 Magic, +1.5 Strength
-Abilities: LMFS,
-BloodThirsty,
-SunSinger">
-              <ul>
-                <li>MIDA MultiTool</li>,
-                <li>Azetic's Cloak</li>
-              </ul>
+            <td>
+              <button name='azetic' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="MIDA MultiTool: (+1 Defense, +1 Health, +2 Speed, +4 Strength)
+              Azetic's Cloak: (+1 Defense, +3 Health, +1 Magic, +1.5 Strength)
+              Abilities: LMFS,
+              BloodThirsty,
+              SunSinger">Select</button>
             </td>
-            <td><button name='azetic'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fab fa-grunt'></i> Barbarian</th>
@@ -114,17 +97,13 @@ SunSinger">
             <td class='mgk'>1.5</td>
             <td class='spd'>3</td>
             <td class='str'>8</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Club: +1 Strength
-Nomad Armor: +3 Defense, +7 Health, +1 Speed, +1.5 Strength
-Abilities: Rampage,
-BluntsMaster,
-BDCH'>
-              <ul>
-                <li>Club</li>,
-                <li>Nomad Armor</li>
-              </ul>
+            <td>
+              <button name='barbarian' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Club: (+1 Strength)
+              Nomad Armor: (+3 Defense, +7 Health, +1 Speed, +1.5 Strength)
+              Abilities: Rampage,
+              BluntsMaster,
+              BDCH">Select</button>
             </td>
-            <td><button name='barbarian'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-dice-d20'></i> Elf</th>
@@ -134,18 +113,13 @@ BDCH'>
             <td class='mgk'>10</td>
             <td class='spd'>4</td>
             <td class='str'>1.5</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Magic Missle: +1 Defense, +5 Magic, +1 Strength
-Robe: +0.5 Defense, +1 Health
-Abilities: StaffMaster,
-MagicBlood,
-SunSinger
-            '>
-              <ul>
-                <li>Magic Missle</li>,
-                <li>Robe</li>
-              </ul>
+            <td>
+              <button name='elf' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Magic Missle: (+1 Defense, +5 Magic, +1 Strength)
+              Robe: (+0.5 Defense, +1 Health)
+              Abilities: StaffMaster,
+              MagicBlood,
+              SunSinger">Select</button>
             </td>
-            <td><button name='elf'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-crow'></i> Fenny</th>
@@ -155,17 +129,13 @@ SunSinger
             <td class='mgk'>3</td>
             <td class='spd'>7</td>
             <td class='str'>4</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' data-html='true' title="Valyrian Sword: +0.5 Defense, +4 Health, +1 Speed, +3 Strength
-Fenny's Armor: +4 Defense, +6 Health, +3 Magic
-Abilities: EagleEye,
-SunSinger,
-SlipperyFeet">
-              <ul>
-                <li>Valyrian Sword</li>,
-                <li>Fenny's Armor</li>
-              </ul>
+            <td>
+              <button name='fenny' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Valyrian Sword: (+0.5 Defense, +4 Health, +1 Speed, +3 Strength)
+              Fenny's Armor: (+4 Defense, +6 Health, +3 Magic)
+              Abilities: EagleEye,
+              SunSinger,
+              SlipperyFeet">Select</button>
             </td>
-            <td><button name='fenny'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-fist-raised'></i> Gentleman</th>
@@ -175,17 +145,13 @@ SlipperyFeet">
             <td class='mgk'>3</td>
             <td class='spd'>4</td>
             <td class='str'>6</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Canesword: +1 Defense, +4 Health, +1 Magic, +1 Speed, +3 Strength
-Fine Tailored Suit: +1.5 Defense, +2 Health, +2 Speed
-Abilities: ExoticGent,
-NSOWM,
-SodaFlask'>
-              <ul>
-                <li>Canesword</li>,
-                <li>Fine Tailored Suit</li>
-              </ul>
+            <td>
+              <button name='gentleman' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Canesword: (+1 Defense, +4 Health, +1 Magic, +1 Speed, +3 Strength)
+              Fine Tailored Suit: (+1.5 Defense, +2 Health, +2 Speed)
+              Abilities: ExoticGent,
+              NSOWM,
+              SodaFlask">Select</button>
             </td>
-            <td><button name='gentleman'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-fist-raised'></i> Goblin</th>
@@ -195,17 +161,13 @@ SodaFlask'>
             <td class='mgk'>6.5</td>
             <td class='spd'>5</td>
             <td class='str'>3</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Dagger: +1.5 Strength
-Cloth: +1 Speed, +1 Health
-Abilities: CorpseShaker,
-BYOG,
-SlipperyFeet'>
-              <ul>
-                <li>Dagger</li>,
-                <li>Cloth</li>
-              </ul>
+            <td>
+              <button name='goblin' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Dagger: (+1.5 Strength)
+              Cloth: (+1 Speed, +1 Health)
+              Abilities: CorpseShaker,
+              BYOG,
+              SlipperyFeet">Select</button>
             </td>
-            <td><button name='goblin'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-fist-raised'></i> Gorphin</th>
@@ -215,18 +177,14 @@ SlipperyFeet'>
             <td class='mgk'>1</td>
             <td class='spd'>3</td>
             <td class='str'>8</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Stick: +0.2 Strength
-Mytheral Armor: +2 Defense, +7 Health, +2 Magic,
-+1 Speed, +2 Strength
-Abilities: DemonSlayer,
-CorpseShaker,
-DragonSlayer'>
-              <ul>
-                <li>Stick</li>,
-                <li>Mytheral Armor</li>
-              </ul>
+            <td>
+              <button name='gorphin' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Stick: (+0.2 Strength)
+              Mytheral Armor: (+2 Defense, +7 Health, +2 Magic,
+              +1 Speed, +2 Strength)
+              Abilities: DemonSlayer,
+              CorpseShaker,
+              DragonSlayer">Select</button>
             </td>
-            <td><button name='gorphin'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-cat'></i> Khajiit</th>
@@ -236,17 +194,13 @@ DragonSlayer'>
             <td class='mgk'>3.5</td>
             <td class='spd'>7</td>
             <td class='str'>5</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Taloc: +1 Defense, +4 Health, +2 Magic, +3 Strength
-Cloak of Darkness: +1.5 Strength, +2 Health,  +1.5 Magic
-Abilities: CorpseShaker,
-EagleEye,
-KnifesMaster'>
-              <ul>
-                <li>Taloc</li>,
-                <li>Cloak of D.</li>
-              </ul>
+            <td>
+              <button name='khajiit' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Taloc: (+1 Defense, +4 Health, +2 Magic, +3 Strength)
+              Cloak of Darkness: (+1.5 Strength, +2 Health,  +1.5 Magic)
+              Abilities: CorpseShaker,
+              EagleEye,
+              KnifesMaster">Select</button>
             </td>
-            <td><button name='khajiit'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-shield-alt'></i> Knight</th>
@@ -256,17 +210,13 @@ KnifesMaster'>
             <td class='mgk'>2</td>
             <td class='spd'>4</td>
             <td class='str'>6</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Sword: +1.5 Strength
-Knight Armor: +5 Defense, +7 Health, -2.5 Speed
-Abilities: SwordsMaster,
-LMFS,
-DragonSlayer'>
-              <ul>
-                <li>Sword</li>,
-                <li>Knight Armor</li>
-              </ul>
+            <td>
+              <button name='knight' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Sword: (+1.5 Strength)
+              Knight Armor: (+5 Defense, +7 Health, -2.5 Speed)
+              Abilities: SwordsMaster,
+              LMFS,
+              DragonSlayer">Select</button>
             </td>
-            <td><button name='knight'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-coins'></i> Merchant</th>
@@ -276,17 +226,13 @@ DragonSlayer'>
             <td class='mgk'>1</td>
             <td class='spd'>5</td>
             <td class='str'>2</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' data-html='true' title='Glade: +5 Health, +2 Magic, +2 Speed, +1 Strength
-Suit: +0.5 Defense, +2 Speed
-Abilities: SharedTrade,
-MyVodka!,
-ShoppingSpree'>
-              <ul>
-                <li>Glade</li>,
-                <li>Suit</li>
-              </ul>
+            <td>
+              <button name='merchant' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Glade: (+5 Health, +2 Magic, +2 Speed, +1 Strength)
+              Suit: (+0.5 Defense, +2 Speed)
+              Abilities: SharedTrade,
+              MyVodka!,
+              ShoppingSpree">Select</button>
             </td>
-            <td><button name='merchant'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-kiwi-bird'></i> Ninja</th>
@@ -296,17 +242,13 @@ ShoppingSpree'>
             <td class='mgk'>4</td>
             <td class='spd'>8</td>
             <td class='str'>4</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Katana: +1 Defense, +2 Health, +1 Magic, +2.5 Strength
-Ninja Robe: +2.5 Defense, +5 Health, + 2 Speed, +1.5 Strength
-Abilities: Charisma,
-DeathStare,
-DemonSlayer'>
-              <ul>
-                <li>Katana</li>,
-                <li>Ninja Robe</li>
-              </ul>
+            <td>
+              <button name='ninja' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Katana: (+1 Defense, +2 Health, +1 Magic, +2.5 Strength)
+              Ninja Robe: (+2.5 Defense, +5 Health, + 2 Speed, +1.5 Strength)
+              Abilities: Charisma,
+              DeathStare,
+              DemonSlayer">Select</button>
             </td>
-            <td><button name='ninja'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-kiwi-bird'></i> Skinwalker</th>
@@ -316,17 +258,13 @@ DemonSlayer'>
             <td class='mgk'>5</td>
             <td class='spd'>2</td>
             <td class='str'>9</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Soulbane: +1 Defense, +3 Health, +3 Strength
-Shadow: +3 Health, +3 Magic, +4 Speed, +3 Strength
-Abilities: PhaseWalker,
-DeadAgain,
-TBTFM'>
-              <ul>
-                <li>Soulbane</li>,
-                <li>Shadow</li>
-              </ul>
+            <td>
+              <button name='skinwalker' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Soulbane: (+1 Defense, +3 Health, +3 Strength)
+              Shadow: (+3 Health, +3 Magic, +4 Speed, +3 Strength)
+              Abilities: PhaseWalker,
+              DeadAgain,
+              TBTFM">Select</button>
             </td>
-            <td><button name='skinwalker'>Select</button></td>
           </tr>
           <tr>
             <th class='race'><i class='fas fa-kiwi-bird'></i> Werewolf</th>
@@ -336,17 +274,13 @@ TBTFM'>
             <td class='mgk'>4</td>
             <td class='spd'>7</td>
             <td class='str'>15</td>
-            <td class='equip' data-toggle='tooltip' data-placement='left' title='Wolf Hide: +2 Defense, +3 Health
-Abilities: BloodThirsty,
-BromptonCocktail,
-Suffering
-(Cannot have weapons)'>
-              <ul>
-                <li>None</li>,
-                <li>Wolf Hide</li>
-              </ul>
+            <td>
+              <button name='werewolf' type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Wolf Hide: (+2 Defense, +3 Health)
+              Abilities: BloodThirsty,
+              BromptonCocktail,
+              Suffering
+              (Cannot have weapons)">Select</button>
             </td>
-            <td><button name='werewolf'>Select</button></td>
           </tr>
         </tbody>
       </table>
@@ -414,8 +348,8 @@ Suffering
     </div>
     
     <script src='../js/scripts/jquery-3.2.1.js'></script>
-    <script src='../js/scripts/popper.min.js'></script>
-    <script src='../js/scripts/bootstrap.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="../js/contructors/abilities.js"></script>
     <script src='../js/contructors/characters.js'></script>
     <script src='../js/main.js'></script>
